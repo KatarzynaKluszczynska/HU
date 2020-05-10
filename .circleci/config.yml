@@ -13,3 +13,9 @@ jobs:
           name: Which bundler?
           command: bundle -v
       - ruby/bundle-install
+  test:
+    docker:
+      - image: circleci/ruby:2.6.6-stretch
+    steps:
+      -run: echo test step
+
