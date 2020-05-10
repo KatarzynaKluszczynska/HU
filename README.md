@@ -1,3 +1,5 @@
+[![CircleCI](https://circleci.com/gh/KatarzynaKluszczynska/HU.svg?style=svg)](https://circleci.com/gh/KatarzynaKluszczynska/HU)
+
 # README
 
 This README would normally document whatever steps are necessary to get the
