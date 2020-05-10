@@ -16,7 +16,9 @@ jobs:
   test:
     docker:
       - image: circleci/ruby:2.6.6-stretch
-      
+
+    working_directory: ~/repo
+
     steps:
       -run: echo test step
 
